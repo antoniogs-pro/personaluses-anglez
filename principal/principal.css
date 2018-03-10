@@ -1,0 +1,226 @@
+<style type="text/css">
+<!-- * {
+color: red;
+font-family: Arial, Helvetica, sans-serif;
+}
+-->
+<!-- ojo a div+p y div>p 
+a:link {
+	color: red;
+}
+a:hover {
+	color: green;
+}
+
+-->
+.full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+body {
+	<!-- font-family: Arial, Helvetica, sans-serif; -->
+}
+
+#logo {  
+  float: center;  
+  text-align: center;
+  padding-top: 0rem;  
+  padding-right: 5rem;  
+  padding-bottom: 0.5rem;   
+  padding-left: 0rem;  
+  z-index: auto;  
+  vertical-align: top;  
+  background-color: transparent;  
+  color: transparent;
+  float: center; </style> 
+  height: 20%; 
+}
+
+#icono {  
+  float: center;  
+  text-align: center; 
+  padding-top: 0rem;  
+  padding-right: 5rem;  
+  padding-bottom: 0.5rem;   
+  padding-left: 0rem;  
+  z-index: auto;  
+  vertical-align: top;  
+  background-color: transparent;  
+  color: transparent;
+  float: center; 
+ 
+  height: 2%; 
+}
+#supertitulo{ 
+  font-size:200%;
+  text-align: center;
+  padding-top: 0.1rem;  
+  padding-bottom: 0rem;  
+  padding-right: 0.1rem;  
+  padding-left: 0.1rem; 
+  text-shadow: 0px 0px 0px blue;
+  float: center;
+}
+#titulo{
+  font-size:350%;
+  text-align: center; 
+  vertical-align: top; 
+  padding-top: 0.5rem;  
+  padding-right: 0.1rem;  
+  padding-bottom: 1rem;  
+  padding-left: 0.1rem; 
+  text-shadow: 1px 1px 1px blue;
+  float: center; 
+}
+#subtitulo {  
+  font-size:300%;
+  text-align: center;
+  color: red;
+  padding-top: 0.5rem;  
+  padding-right: 0.1rem;  
+  padding-bottom: 0.5rem;  
+  padding-left: 0.1rem;  
+  z-index: auto.boton{
+        font-size:90%;
+        text-shadow: 1px 1px 1px blue;
+        margin-left: 0rem;
+	padding-left: 0rem;
+	width:30%;
+        height:30%;
+	resize: both;
+        min-width: 50px; /*suggest a mid-width & min-height*/
+        min-height 50px; 
+	float: none;
+};  
+  vertical-align: top;  
+  float: center; 
+}
+
+
+h3 {
+font-size:10%;
+text-align: center;
+vertical-align: top; 
+padding-right:0.1rem;
+padding-bottom: 0rem;  
+}
+h2 {
+font-size:200%;
+text-align: center;
+vertical-align: top; 
+padding-right:0.boton{
+        font-size:90%;
+        text-shadow: 1px 1px 1px blue;
+        margin-left: 0rem;
+	padding-left: 0rem;
+	width:30%;
+        height:30%;
+	resize: both;
+        min-width: 50px; /*suggest a mid-width & min-height*/
+        min-height 50px;
+	float: none;
+		}.1rem;
+	padding-bottom: 0rem;  
+    }
+h1{
+font-size:250%;
+text-align: center;
+vertical-align: top; 
+padding-left: 0.1rem;
+text-shadow: 1px 1px 1px YELLOW;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 10;
+  margin: 1;
+}
+
+ul {
+  list-style-type:none;
+  text-shadow: 1px 1px 1px blue;
+  display:flex;
+  flex-direcction: row;
+  padding:0;
+  margin:0;
+}
+li {
+        font-size:90%;
+        text-shadow: 1px 1px 1px blue;
+        margin-left: 0rem;
+	padding-left: 0rem;
+	width:30%;
+        height:30%;
+	resize: both;
+        min-width: 50px; /*suggest a mid-width & min-height*/
+        min-height 50px;
+	float: none;
+
+}
+ul>li {
+	color: red;	
+	}
+li:hover { background-color:LightGray;
+	 border-radius: 24px;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+         }
+
+a {
+	display:inline-flex;
+	padding:1em;
+	text-align:center;style="text-align: center;"
+	margin-bottom:0.2em;
+	text-decoration:none;
+	color:#000000;
+}
+a:link {
+	color: lightred;
+}
+.boton{
+        font-size:90%;
+        text-shadow: 1px 1px 1px blue;
+        margin-left: 0rem;
+	padding-left: 0rem;
+	width:30%;
+        height:30%;
+	resize: both;
+        min-width: 50px; /*suggest a mid-width & min-height*/
+        min-height 50px;
+	float: none;
+}
+.fondoA {
+	background-image: url(imagenes/tablero.png);
+}
+.modA {
+	border-radius: 24px;
+}
+.background {
+  background-image: url(imagenes/US/watermark.jpg);
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.cabecera {
+text-align: center;
+}
+.anterior, .posterior {
+	height: 100px;
+	width: 200px;
+	border: 2px solid #30F;
+	padding: 5px;
+}
+</style> 
